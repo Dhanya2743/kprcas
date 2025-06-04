@@ -1,0 +1,39 @@
+.header{
+    background-color:rgb(236, 158, 40);
+    color: olivedrab;
+}
+.header:hover{
+    background-color: rgb(3, 88, 49);
+    color: darkgoldenrod;
+} 
+#one{
+    color: rgb(6, 85, 85);
+}
+#two{
+    color: rgb(156, 71, 236);
+}
+#three{
+    color: chocolate;
+}
+#four{
+    color: rgb(50, 23, 224);
+}
+#five,#six,#seven,#eight{
+    color:rgb(188, 104, 236);
+}
+*{
+    color: indianred;
+}
+.link{
+     text-decoration:none ;
+     color: rgb(230, 127, 183);
+     background-color: rgb(3, 0, 0);
+     padding: 10px;
+     border-radius: 10px;
+
+}
+.link:hover{
+    color: rgb(14, 0, 8);
+    background-color: rgb(226, 91, 166);
+    
+}
