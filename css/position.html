@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Document</title>
+</head>
+<style>
+    .fixed{
+        position: fixed;
+        height: 10px;
+    }
+     .sticky{
+        position: sticky;
+        height: 10px;
+    }
+    .relative{
+        position: relative;
+        height: 100vh;
+        top: 10px;
+        border: double 10px greenyellow;
+    }
+    .child{
+        position: child;
+        top: 150;
+        left: 200px;
+        padding: 10px;
+        border: dotted 10px pink;
+    }
+</style>
+<body>
+    <div class="fixed">
+        <span>fixed</span>
+    </div>
+      <div class="sticky">
+        <span>sticky</span>
+    </div>
+       <div class="relative">
+        <span>relative</span>
+        <div class="child"></div>
+        <span>child</span>
+    </div>
+    
+</body>
+</html>
