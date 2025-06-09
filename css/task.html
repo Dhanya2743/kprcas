@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>MY INTRO</title>
+    <style>
+     body{
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(243, 127, 127);
+        padding: 50px;
+      }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="NAME">name:</label>
+        <INPUT type="text" id="name" placeholder="enter your name" style="height: 10px;"><br>
+           
+        <label for="ROLLNO">rollno:</label>
+        <INPUT type="number" id="rollno" placeholder= " enter your rollno" style="height: 10px;"><br>
+           
+        <label for="email">email:</label>
+        <INPUT type="text" id="email" placeholder="enter your email" style="height: 10px;"><br>
+
+        <label for="department">department:</label>
+        <INPUT type="text" id="department" placeholder="enter your department" style="height: 10px;"><br>
+        <button onclick="addAll()">submit</button><br>
+    <ol id="display">
+    </ol>
+    <script>
+        function addName(){
+            const name=document.getElementById('name').value;
+            const li =document.createElement('li')
+            li.textContent=name
+            document.getElementById('display').append(li)
+         }
+ </scprit>
+</body>
+</html>
